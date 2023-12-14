@@ -27,8 +27,9 @@
   - Sample_v2: 학습 18,000개(13,000 / 5,000), 검증 2,000개(1,500 / 500), 데이터 증강 O
   - Sample_v3: 학습 22,000개(17,000 / 5,000), 검증 2,500개(2,000 / 500), 데이터 증강 O
   - Sample_eq: 학습 26,000개(21,000 / 5,000), 검증 2,800개(2,300 / 500), 데이터 증강 O
+  - 데이터 증강에는 blur, gaussian noise, clahe, gray, vertical/horizontal flip, resize & crop, hsv, brightness 변환 기법을 사용했다.
 
-- 원본 이미지(왼쪽)와 horizontal flip(오른쪽) 증강이 적용된 이미지
+- 원본 이미지(왼쪽)와 horizontal flip(오른쪽) 증강이 적용된 이미지 예시
 <p align = "center">
 <img width="49%" alt="image" src="https://github.com/Hyeonseung0103/Fish_Detection_Project/assets/97672187/078d3614-291b-420f-ab8f-f73be377b7c1">
 <img width="49%" alt="image" src="https://github.com/Hyeonseung0103/Fish_Detection_Project/assets/97672187/7049aa73-8754-4cbd-8489-3a8336fbec04">
@@ -36,7 +37,7 @@
 
 <br>
 
-- Blur(왼쪽)와 Clahe(오른쪽) 증강이 적용된 이미지
+- Blur(왼쪽)와 Clahe(오른쪽) 증강이 적용된 이미지 예시
 
 <p align = "center">
 <img width="49%" alt="image" src="https://github.com/Hyeonseung0103/Fish_Detection_Project/assets/97672187/49010a57-c8d9-437d-931e-ef5d8424d8c6">
